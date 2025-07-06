@@ -1,0 +1,69 @@
+## Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.app
+*.pdb
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## IDE and OS files
+.vscode/
+.idea/
+.vs/
+*.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## Rider
+.idea/
+*.sln.iml
+*.sln.DotSettings
+
+## Visual Studio Code
+.vscode/
+
+## Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+coverage/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET generated files
+wwwroot/lib/
+node_modules/
+dist/
+build/
+publish/
+
+## Configuration
+appsettings.Development.json
+secrets.json
+Properties/launchSettings.json
+
+## Entity Framework
+Migrations/
+
+## Others
+*.db
+*.sqlite
+*.bak
+*.sql
+*.mdf
+*.ldf
